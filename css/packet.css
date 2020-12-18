@@ -1,0 +1,24 @@
+#packet-area{
+	padding-top: 100px; 
+	text-align: left;
+	font-size: 16px;
+}
+
+#packet-area h1{
+	color: #4e4e4e;
+    font-size: 32px;
+    line-height: 1.05em;
+    letter-spacing: -.02em;
+    margin: 1.8em auto .65em;
+    font-weight: 400;
+    text-align: left;
+}
+
+#packet-area p{
+	font-size: 18px;
+}
+
+.red{
+	color: #F24046;
+	font-size: 18px;
+}

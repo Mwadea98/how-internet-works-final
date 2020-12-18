@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/encryption.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Encryption & Public Keys</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHNYRP9Z9D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RHNYRP9Z9D');
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md navbar-light">
+                
+                <a class="navbar-brand" href="index.html">How Internet Works</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto py-4 py-md-0">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="internet.html">How Internet Works</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="encryption-area">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-lg-3">
+            <div id="sidebar-menu">
+              <h1>What is Internet</h1>
+              <div class="sidebar-menu-content">
+                <div class="side-item divider "></div>
+                <div class="side-item "><a href="internet.html">What is Internet</a></div>
+                <div class="side-item divider"></div>
+                <div class="side-item"><a href="wirecablesandwifi.html">Wire Cables</a></div>
+                <div class="side-item divider"></div>
+                <div class="side-item"><a href="packetroutingandreliability.html">Packet Routing</a></div>
+                <div class="side-item divider"></div>
+                <div class="side-item"><a href="ipaddressanddns.html">IP Address & DNS</a></div>
+                <div class="side-item divider"></div>
+                <div class="side-item"><a href="httpandhtml.html">HTML & HTTP</a></div>
+                <div class="side-item divider active"></div>
+                <div class="side-item active"><a href="encryption.html">Encryption Public Keys</a></div>
+                <div class="side-item divider "></div>
+                <div class="side-item "><a href="cyber.html">Cyber Security</a></div>
+                <div class="side-item divider"></div>
+                <div class="side-item"><a href="domain.html">Domain Names& ICANN</a></div>
+                <div class="side-item divider"></div>
+                <div class="side-item"><a href="W3C.html">W3c</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <h1>Introduction</h1>
+            <p>The internet is an open and public system but we still exchange a lot of personal data. e.g. credit card numbers, emails, passwords and bank information etc.</p>
+            <p class="red">
+            How private stuff is kept secret? </p>
+            <p>
+            Data of any kind is kept secret through a process called <strong>encryption</strong></p>
+            <h1>Encryption</h1>
+            <p>
+              Encryption is a process that encodes a message or file so that it can be only be read by certain people. Encryption uses an algorithm to scramble, or encrypt, data and then uses a key for the receiving party to unscramble, or decrypt, the information.
+            </p>
+            <h1>How Encryption Works</h1>
+            <p>Encryption uses algorithms to scramble your information. It is then transmitted to the receiving party, who is able to decode the message with a key. There are many types of algorithms, which all involve different ways of scrambling and then decrypting information.</p>
+            <h1>Key</h1>
+            <p>Random string of bits created specifically for scrambling and unscrambling data. These are used to encrypt and/or decrypt data. Each key is unique and created via algorithm to make sure it is unpredictable. Longer keys are harder to crack. Common key lengths are 128 bits for symmetric key algorithms and 2048 bits for public-key algorithms.</p>
+            <h1>Private Key (or Symmetric Key):</h1>
+            <p> This means that the encryption and decryption keys are the same. The two parties must have the same key before they can achieve secure communication.</p>
+            <h1>Public Key</h1>
+            <p>This means that the encryption key is published and available for anyone to use. Only the receiving party has access to the decryption key that enables them to read the message.</p>
+            <h1>Cipher</h1>
+            <p>An algorithm used for encryption or decryption. It is a set of steps that are followed as a procedure to encrypt information. There are two main types of ciphers, block ciphers and stream ciphers.</p>
+            <h1></h1>
+            <h1>Decryption</h1>
+            <p>
+              It is message to unscramble the message to make it readable.
+            </p>
+            <h1>Security Protocols</h1>
+            <ol>
+              <li>SSL Secure Socket Layer</li>
+              <li>TSL Transport Layer Security</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer">
+        <hr>
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Marco Wadeo
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="twitter" href="https://github.com/Mwadea98"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    <!-- jQuery first & then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS for navbar -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

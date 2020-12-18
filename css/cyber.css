@@ -1,0 +1,16 @@
+#cyber-area{
+	padding-top: 100px;
+	text-align: left;
+	font-size: 16px;
+}
+
+#cyber-area h1{
+	font-family: 'Source Sans Pro';
+	color: #4e4e4e;
+    font-size: 32px;
+    line-height: 1.05em;
+    letter-spacing: -.02em;
+    margin: 1.8em auto .65em;
+    font-weight: 400;
+    text-align: left;
+}
